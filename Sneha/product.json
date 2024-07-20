@@ -1,0 +1,24 @@
+[{
+"product":"chars",
+"quantity":1
+
+},{
+    "product":"Lop",
+    "quantity":2
+},{
+    "product":"bage",
+    "quantity":3
+},{
+    "product":"Toys",
+    "quantity":4
+},{
+    "product":"loptop",
+    "quantity":5
+},{
+    "product":"books",
+    "quantity":6
+},{
+    "product":"shoes",
+    "quantity":7
+}
+]

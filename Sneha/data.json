@@ -1,0 +1,19 @@
+{
+    "products": [
+        
+        { "name": "Books", "quantity": 45 },
+        { "name": "Rhino Toys", "quantity": 40 },
+        { "name": "Bags", "quantity": 30 },
+        { "name": "Laptops", "quantity": 25 },
+        { "name": "Chargers", "quantity": 20 },
+        { "name": "Mouse", "quantity": 10 }
+    ],
+    "recipients": [
+        { "product": "Bag", "recipient": "Senthil", "quantity": 1 },
+        { "product": "Toy", "recipient": "Senthil", "quantity": 1 },
+        { "product": "Laptop", "recipient": "Naveen", "quantity": 1 },
+        { "product": "Charger", "recipient": "Naveen", "quantity": 1 },
+        { "product": "Laptop", "recipient": "Batch 3 Students", "quantity": 14 },
+        { "product": "Bag", "recipient": "Batch 3 Students", "quantity": 14 }
+    ]
+}

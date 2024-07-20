@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.dashboard {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    width:600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card1 {
+    width:auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product-list{
+    display: flex;
+    width: 100%;
+    gap: 150px;
+   
+   
+}
+.actions{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+#inventoryStatusChart{
+    width:100%;
+    max-width:600px;
+}
+
+.actions button {
+  
+   
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.recipient-details table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recipient-details th, .recipient-details td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.recipient-details th {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.recipient-details{
+    max-height: 200px;
+  overflow-y: auto;
+    
+    
+}
